@@ -1,7 +1,7 @@
 #React Native starterpack
 
 ###To get started
-`git clone git@github.com:theobouwman/react-native-starterpack.git`
+`git clone git@github.com:theobouwman/react-native-starterpack.git`<br>
 `npm install`
 
 ###To run
