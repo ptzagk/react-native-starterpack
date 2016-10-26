@@ -10,9 +10,9 @@ import {
 	StackNavigation,
 } from '@exponent/ex-navigation';
 
-import DrawerNavigation from './app/ios/DrawerNavigation'
-import HomeScreen from './app/ios/screens/HomeScreen'
-import SettingsScreen from './app/ios/screens/SettingsScreen'
+import DrawerNavigation from './app/universal/DrawerNavigation'
+import HomeScreen from './app/universal/screens/HomeScreen'
+import SettingsScreen from './app/universal/screens/SettingsScreen'
 
 export const Router = createRouter(() => ({
 	home: () => HomeScreen,
