@@ -11,7 +11,7 @@ import {
   TabNavigation,
   TabNavigationItem,
 } from '@exponent/ex-navigation';
-import { Ionicons } from '@exponent/vector-icons';
+// import { Ionicons } from '@exponent/vector-icons';
 
 function getColor(isSelected) {
   return isSelected ? '#fff' : '#000';
