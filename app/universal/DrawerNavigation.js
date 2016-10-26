@@ -82,6 +82,22 @@ export default class DrawerNavigationComponent extends Component {
                         initialRoute={Router.getRoute('settings')}
                     />
                 </DrawerNavigationItem>
+                <DrawerNavigationItem
+                    id="tabscreen"
+                    selectedStyle={styles.selectedItemStyle}
+                    renderTitle={isSelected => this._renderTitle('Tab screen', isSelected)}
+                >
+                    <StackNavigation
+                        id="tabscreen"
+                        defaultRouteConfig={{
+                            navigationBar: {
+                                backgroundColor: '#0084FF',
+                                tintColor: '#fff',
+                            },
+                        }}
+                        initialRoute={Router.getRoute('tabSreenExample')}
+                    />
+                </DrawerNavigationItem>
             </DrawerNavigation>
         );
     }

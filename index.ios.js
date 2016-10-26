@@ -13,12 +13,13 @@ import {
 import DrawerNavigation from './app/universal/DrawerNavigation'
 import HomeScreen from './app/universal/screens/HomeScreen'
 import SettingsScreen from './app/universal/screens/SettingsScreen'
+import TabSreenExample from './app/universal/screens/TabScreenExample'
 
 export const Router = createRouter(() => ({
 	home: () => HomeScreen,
-	settings: () => SettingsScreen
+	settings: () => SettingsScreen,
+    tabSreenExample: () => TabSreenExample
 }));
-
 class Woody extends Component {
 
 	render() {
