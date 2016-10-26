@@ -21,7 +21,7 @@ export const Router = createRouter(() => ({
     tabSreenExample: () => TabSreenExample
 }));
 
-class Woody extends Component {
+class StarterKit extends Component {
 
 	render() {
 		return (
@@ -33,4 +33,4 @@ class Woody extends Component {
 	}
 }
 
-AppRegistry.registerComponent('Woody', () => Woody);
+AppRegistry.registerComponent('StarterKit', () => StarterKit);
