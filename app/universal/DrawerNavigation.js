@@ -17,7 +17,7 @@ export default class DrawerNavigationComponent extends Component {
 
     _renderHeader = () => {
         return <Image
-            source={require('../assets/images/huizekerklingh.jpg')}
+            source={require('../assets/reactNative.png')}
             style={styles.header} />;
     };
 
