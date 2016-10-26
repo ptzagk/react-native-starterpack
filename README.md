@@ -9,3 +9,6 @@
 - android `react-native run-android`
 
 Fork repo and add other navigation types like 'tabs'
+
+###TODO
+- @exponent/vector-icons do not work
