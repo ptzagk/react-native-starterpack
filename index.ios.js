@@ -10,16 +10,10 @@ import {
 	StackNavigation,
 } from '@exponent/ex-navigation';
 
-import DrawerNavigation from './app/universal/DrawerNavigation'
-import HomeScreen from './app/universal/screens/HomeScreen'
-import SettingsScreen from './app/universal/screens/SettingsScreen'
-import TabSreenExample from './app/universal/screens/TabScreenExample'
+import { Router } from './app/universal/Router'
 
-export const Router = createRouter(() => ({
-	home: () => HomeScreen,
-	settings: () => SettingsScreen,
-    tabSreenExample: () => TabSreenExample
-}));
+import DrawerNavigation from './app/universal/DrawerNavigation'
+
 class Woody extends Component {
 
 	render() {

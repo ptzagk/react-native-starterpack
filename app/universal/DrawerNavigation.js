@@ -10,8 +10,10 @@ import {
     DrawerNavigation,
     DrawerNavigationItem,
 } from '@exponent/ex-navigation';
-// import { Ionicons } from '@exponent/vector-icons';
-import { Router } from '../../index.ios.js';
+
+// import Entypo from 'react-native-vector-icons/Entypo';
+
+import { Router } from './Router';
 
 export default class DrawerNavigationComponent extends Component {
 
@@ -35,7 +37,7 @@ export default class DrawerNavigationComponent extends Component {
   //     extraStyle = {...extraStyle, marginLeft: -3};
   //   }
   //   return (
-  //     <Ionicons
+  //     <Entypo
   //       style={[styles.icon, isSelected ? styles.selectedText : null, extraStyle]}
   //       name={name}
   //       size={24}

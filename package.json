@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "@exponent/ex-navigation": "^1.7.1",
-    "@exponent/vector-icons": "1.0.4",
     "@shoutem/ui": "^0.9.1",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "flux": "^3.1.0",
