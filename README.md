@@ -10,5 +10,10 @@
 
 Fork repo and add other navigation types like 'tabs'
 
-###TODO
-- @exponent/vector-icons do not work
+##Icons
+Search for icons here: https://exponentjs.github.io/vector-icons/
+
+Import like here: `import Entypo from 'react-native-vector-icons/Entypo';` where `Entype` is the name of the FontType.
+
+JSX Syntax for rendering an icon.
+`<Entypo style={{margin: 10}} onPress={() => {console.log('click')}} name="plus" size={32} color="black" />`
